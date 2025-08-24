@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Landing page</title>
+  <meta name="description" content="A clean, accessible landing page built for The Odin Project." />
+  <meta name="author" content="DEWAN MAHMUD" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" role="banner">
+    <div class="container header-row">
+      <a class="brand" href="#" aria-label="Homepage"><span>Landing page for Odin Project</span></a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#cta">Sign Up</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO: text + real image -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1 id="hero-title">Built by DEWAN MAHMUD for The Odin Project – Foundations: Landing Page..</h1>
+          <p class="lead"> This project showcases what I’ve learned so far: semantic HTML, the box model, flexbox, and clean, accessible styling.</p>
+          <a class="btn btn-primary" href="#cta">Get started</a>
+          <p class="credit">Foundations • Project: Landing Page • by <strong>DEWAN MAHMUD</strong></p>
+        </div>
+        <figure class="hero-media">
+          <img src="https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=750,fit=crop/YBgb5QD61ghE5Lom/rocky-qa-400x400-Awv9XB17aVS9xkx0.jpg" alt="Abstract banner for Plain & Unique Landing" />
+          <figcaption class="sr-only">DEWAN MAHMUD</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="about" class="about section">
+      <div class="container narrow">
+        <h2>About Dewan Mahmud </h2>
+        <p>I’m a motivated, hands-on learner focused on building clear, accessible, and responsive interfaces. I keep things simple, improve step by step, and ship my work.</p>
+      </div>
+    </section>
+
+    <section id="features" class="features section" aria-labelledby="features-title">
+      <div class="container">
+        <h2 id="features-title">I’m just sharing the projects I built while going through the Odin Project.</h2>
+        <ul class="feature-list">
+          <li>
+            <h3></h3>
+            
+        <a class="btn btn-outline" href="https://dewantechus.github.io/per-scholas-tech-prep/">Odin Recipes</a>
+      
+            <p>Odin Recipes.</p>
+          </li>
+          <li>
+            <h3>Project2</h3>
+            <p>Blank by Dewan Mahmud 2. </p>
+          </li>
+          <li>
+            <h3>Project3</h3>
+            <p>Blank by Dewan Mahmud 3.</p>
+          </li>
+          <li>
+            <h3>Project4</h3>
+            <p>Blank by Dewan Mahmud 4.</p>
+          </li>
+           <li>
+            <h3>Project5</h3>
+            <p>Blank by Dewan Mahmud 5.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="cta" class="cta section" aria-labelledby="cta-title">
+      <div class="container cta-row">
+        <div class="cta-text">
+          <h2 id="cta-title">Want to know more about me click About Me?</h2>
+          <p>Trying My Best.</p>
+        </div>
+        <a class="btn btn-outline" href="https://dewantech.com/">About me</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p>© <span id="year"></span> DEWAN MAHMUD · Built for The Odin Project</p>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
